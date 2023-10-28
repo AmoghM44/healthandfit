@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Health and Fitness</string>
+    <string name="Welcome">Welcome to Health and Fitness App</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="headingRegister">Please enter your details to register on the app</string>
+    <string name="headRegister">Please enter your details to Register on the app</string>
+    <string name="full_name">Full Name</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_age">enter your age</string>
+    <string name="age">age</string>
+    <string name="enter_your_email">enter your email</string>
+    <string name="email">email</string>
+    <string name="gender">gender</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="password">password</string>
+    <string name="enter_password">enter password</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="please_confirm_your_password">please confirm your password</string>
+    <string name="headlogin">Please enter your credentials for login</string>
+    <string name="forgotpassword">forgot password</string>
+    <string name="forgot_password">forgot password</string>
+    <string name="submit">submit</string>
+    <string name="cancel">cancel</string>
+    <string name="enter_email">enter email</string>
+    <string name="reser">reser</string>
+    <string name="reset">reset</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home(Excercises)</string>
+    <string name="menu_gallery">Food</string>
+    <string name="menu_slideshow">Remedies</string>
+    <string name="menu_about">About</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_1_pushups">1.Pushups </string>
+    <string name="traditional_pushups">Traditional pushups are beneficial for building upper body strength.
+        They work the triceps, pectoral muscles, and shoulders.
+        When done with proper form, they can also strengthen the lower back and core by engaging (pulling in) the abdominal muscles.
+        Pushups are a fast and effective exercise for building strength.</string>
+    <string name="_2_pullups">Pull-ups strengthen your chest, shoulders, arms, and core
+        When properly performed, they also engage your abs, including your deep transverse abdominis,
+        making them a great exercise for targeting many of the major muscles in the body
+        .</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    tools:context=".strengthActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/eggname"
+            android:layout_width="160dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal"
+            android:text="Egg"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/eggimg"
+            android:layout_width="336dp"
+            android:layout_height="196dp"
+            android:layout_marginTop="80dp"
+            android:foregroundGravity="center_horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/eggname"
+            app:srcCompat="@drawable/egg" />
+
+        <TextView
+            android:id="@+id/egginfo"
+            android:layout_width="400dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal"
+            android:padding="23dp"
+            android:text="Each egg contains about six grams of protein, as well as helpful amino acids. Getting our share of protein for the day can help with weight management, increase muscle mass, lower blood pressure and help our bones, as well."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/eggimg" />
+
+
+
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

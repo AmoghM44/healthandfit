@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    tools:context=".strengthActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/hamstring"
+            android:layout_width="336dp"
+            android:layout_height="196dp"
+            android:layout_marginTop="44dp"
+            android:foregroundGravity="center_horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/hamstringname"
+            app:srcCompat="@drawable/hamstring" />
+
+        <TextView
+            android:id="@+id/hamstringname"
+            android:layout_width="160dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal"
+            android:text="1.Hamstring Stretch"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main" />
+
+        <TextView
+            android:id="@+id/main"
+            android:layout_width="160dp"
+            android:layout_height="30dp"
+            android:text="Basic stretching exercises"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.042" />
+
+
+        <TextView
+            android:id="@+id/hamstringinfo"
+            android:layout_width="400dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal"
+            android:padding="23dp"
+            android:text="Stretches neck, back, glutes, hamstrings, calves."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/hamstring" />
+
+        <TextView
+            android:id="@+id/lunge"
+            android:layout_width="160dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal"
+            android:text="2.Lunge with spinal twist"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/hamstringinfo" />
+
+        <ImageView
+            android:id="@+id/lungepic"
+            android:layout_width="336dp"
+            android:layout_height="196dp"
+            android:layout_marginTop="44dp"
+            android:foregroundGravity="center_horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lunge"
+            app:srcCompat="@drawable/lunge" />
+
+        <TextView
+            android:id="@+id/lungeinfo"
+            android:layout_width="400dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal"
+            android:padding="23dp"
+            android:text="It's essential to help with posture-related pain or for people who sit for prolonged periods of time"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lungepic" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

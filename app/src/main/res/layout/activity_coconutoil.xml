@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    tools:context=".strengthActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/coconutoilname"
+            android:layout_width="160dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal"
+            android:text="coconut oil"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/coconutoilimg"
+            android:layout_width="336dp"
+            android:layout_height="196dp"
+            android:layout_marginTop="80dp"
+            android:foregroundGravity="center_horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/coconutoilname"
+            app:srcCompat="@drawable/coconut" />
+
+        <TextView
+            android:id="@+id/coconutoilinfo"
+            android:layout_width="400dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal"
+            android:padding="23dp"
+            android:text="Coconut oil may help reduce hunger, improve oral health, possibly reduce seizures, and more. However, while coconut oil does have several potential benefits, it may not be great for your heart health."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/coconutoilimg" />
+
+
+
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    tools:context=".strengthActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/honeyname"
+            android:layout_width="160dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal"
+            android:text="Honey"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/honeyimg"
+            android:layout_width="336dp"
+            android:layout_height="196dp"
+            android:layout_marginTop="80dp"
+            android:foregroundGravity="center_horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/honeyname"
+            app:srcCompat="@drawable/honey" />
+
+        <TextView
+            android:id="@+id/honeyinfo"
+            android:layout_width="400dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal"
+            android:padding="23dp"
+            android:text="In addition to its use as a natural sweetener, honey is used as an anti-inflammatory, antioxidant and antibacterial agent. People commonly use honey orally to treat coughs and topically to treat burns and promote wound healing."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/honeyimg" />
+
+
+
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
